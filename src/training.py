@@ -33,6 +33,7 @@ def training(config_path):
 
     save_model(model, model_name, model_dir_path)
 
+
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
 
